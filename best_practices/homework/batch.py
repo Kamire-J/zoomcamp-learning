@@ -21,8 +21,6 @@ def read_data(filename, categorical):
 
 def main(year, month):
 
-    
-
     # File input
     input_file = f'https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_{year:04d}-{month:02d}.parquet'
     output_file = f'output/yellow_tripdata_{year:04d}-{month:02d}.parquet'
